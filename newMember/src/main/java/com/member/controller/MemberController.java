@@ -23,7 +23,7 @@ public class MemberController {
 
 	@Autowired
 	private MemberService memberService;
-	private Member member;
+
 
 	@GetMapping("/insertForm")
 	public String getMethodName() {
